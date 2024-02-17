@@ -1,0 +1,81 @@
+body {
+    background-color:hsl(30, 54%, 90%);
+}
+
+.retangulo {
+    
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    margin: auto
+}
+
+.prato-omellete{
+    width: 450px;
+    border-radius: 15px;
+}
+
+.titulo-casca{
+    font-family: "YoungSerif";
+    color: hsl(24, 5%, 18%);
+}
+
+
+.titulo {
+    font-family: "YoungSerif";
+    color: hsl(14, 45%, 36%);
+
+}
+
+.sub-titulo {
+    font-family: "Outfit"; 
+    color:hsl(24, 5%, 18%);
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 450;
+}
+
+.tempo-de-preparo{
+    font-family: "Outfit";
+    
+}
+
+.tempo-de-preparo h3 {
+    color: hsl(332, 51%, 32%);
+    display: flex;
+    height: 15px;
+    margin-left: 16px;
+}
+
+.tempo-de-preparo li{
+    padding: 12px 10px 14px;
+    line-height: 6px;
+    margin-left: 15px;
+}
+
+.retangulinho{
+    background-color:hsl(330, 100%, 98%);
+    padding: 7px 17px 1px 17px ;
+    border-radius: 15px;
+    height: 170px; 
+}
+
+hr{
+    background-color: hsl(24, 5%, 18%);
+    margin-top: 20px;
+    
+}
+
+.Nutricao .lista{
+
+    flex-direction: column;
+    list-style: none;
+    width: 450px;
+    text-indent: 20px;
+}
+
+
